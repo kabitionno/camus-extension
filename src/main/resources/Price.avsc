@@ -1,0 +1,107 @@
+{
+	"namespace":"com.linkedin.etl.avro.schema",
+	"type":"record",
+	"name":"PriceSchema",
+	"fields":[
+		{
+			"name":"price_id",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_programType",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_sale_salePrice",
+			"type":["null", "float"]
+		},
+		{
+			"name":"price_sale_saleEndDate",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_regPrice",
+			"type":["null", "float"]
+		},
+		{
+			"name":"price_promotext",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_mapVal",
+			"type":["null", "float"]
+		},
+		{
+			"name":"price_shipping_minRate",
+			"type": ["null", "float"]
+		},
+		{
+			"name":"price_shipping_isSywrMaxShipElig",
+			"type": ["null", "boolean"]
+		},
+		{
+			"name":"price_shipping_handlingFee",
+			"type":["null", "float"]
+		},
+		{
+			"name":"price_shipping_mode_exp_excluded",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_shipping_mode_exp_price",
+			"type":["null", "float"]
+		},
+		{
+			"name":"price_shipping_mode_gnd_excluded",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_shipping_mode_gnd_free_startDt",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_shipping_mode_gnd_free_endDt",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_shipping_mode_gnd_free_promoTxt",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_shipping_mode_gnd_free_price",
+			"type": ["null", "boolean"]
+		},
+		{
+			"name":"price_shipping_mode_prem_excluded",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_shipping_mode_prem_price",
+			"type":["null", "float"]
+		},
+		{
+			"name":"price_handlingFee",
+			"type": ["null", "boolean"]
+		},
+		{
+			"name":"price_meta_createdTs",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_meta_lastModifiedBy",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_meta_modifiedTs",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_meta_schemaVer",
+			"type":["null", "string"]
+		},
+		{
+			"name":"price_isCENotExist",
+			"type": ["null", "boolean"]
+		}
+	]
+}

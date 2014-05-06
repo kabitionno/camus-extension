@@ -1,0 +1,26 @@
+{
+	"_blob":{
+		"price":{
+			"id":"SAMSUNGS4",
+			"meta":{
+				"createdTs":"2013-08-02T02:24:12.000Z",
+				"lastModifiedBy":"SomeGuy",
+				"modifiedTs":"2014-02-23T21:33:04.373Z",
+				"schemaVer":"V1.0"
+			},
+			"programType":"DIRECTSELLER",
+			"regPrice":"599.99",
+			"shipping":{
+				"handlingFee":"0.00",
+				"isSywrMaxShipElig":false,
+				"minRate":"10.01"
+			}
+		}
+	},
+	"_bucket":1234,
+	"_id":"SAMSUNGS4",
+	"_meta":{
+		"_cn":"snappy"
+	},
+	"_tmstmp":1394031020953
+}

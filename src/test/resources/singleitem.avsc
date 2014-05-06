@@ -1,0 +1,11 @@
+{
+	"namespace":"com.linkedin.etl.avro.schema",
+	"type":"record",
+	"name":"singleitem",
+	"fields":[
+		{
+			"name":"id",
+			"type": ["string", "null"]
+		}	
+	]
+}
